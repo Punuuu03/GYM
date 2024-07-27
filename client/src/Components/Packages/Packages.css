@@ -1,0 +1,109 @@
+.packages-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 140px;
+    transition: margin-left 0.3s ease;
+}
+
+.packages-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.add-package-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.add-package-link:hover {
+    background-color: #00b32a;
+}
+
+.packages-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.packages-container th,
+.packages-container td {
+    padding: 12px;
+    text-align: left;
+}
+
+.packages-container th {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.packages-container td {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.packages-container tr:last-child td {
+    border-bottom: none;
+}
+
+.packages-container tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+}
+
+.packages-container tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+.packages-container tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+.packages-container .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.packages-container .dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff;
+}
+
+.packages-container .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    z-index: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.packages-container .dropdown-content button {
+    color: #333;
+    padding: 12px;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.packages-container .dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+.packages-container .dropdown button:focus + .dropdown-content,
+.packages-container .dropdown-content {
+    display: block;
+}

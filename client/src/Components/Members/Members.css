@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profileIcon {
+    cursor: pointer;
+}
+
+.content {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 170px;
+    transition: margin-left 0.3s ease;
+    margin-bottom: 2000px;
+}
+
+.member-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.add-member-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+}
+
+.add-member-button:hover {
+    background-color: #45a049;
+}
+
+.members-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+
+.members-table th {
+    text-align: left;
+    padding: 12px;
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.members-table td {
+    background-color: white;
+    padding: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.members-table td img.member-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.members-table a {
+    margin-right: 10px;
+    color: #46a345;
+    transition: color 0.3s ease;
+}
+
+.members-table a:hover {
+    color: #007bff;
+}
+
+.members-table td:not(:last-child) {
+    border-right: none;
+}
+
+.members-table tr {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.members-table tr:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.members-table th:nth-child(2),
+.members-table td:nth-child(2) {
+    width: 25%;
+}
+
+.members-table th,
+.members-table td {
+    width: calc((100% - 25%) / 5);
+}

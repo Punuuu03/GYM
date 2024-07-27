@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.profileIcon {
+  cursor: pointer;
+}
+
+/* src/Components/SideBar/SideBar.css */
+.sideBar {
+  background-color: #fff; /* Sidebar background color */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  height: 90vh;
+  width: 300px;
+  position: fixed;
+  top: 80px;
+  left: 20px;
+  z-index: 1; /* Ensure it stays above other content */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.settingsDiv {
+  margin-bottom: 500px;
+}
+
+.divTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.menuLists {
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.listItem {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menuLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.smallText {
+  font-size: 14px;
+}
+
+.sideBarCard {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.cardContent {
+  margin-left: 20px;
+}
+
+.circle1 {
+  width: 10px;
+  height: 10px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.circle2 {
+  width: 10px;
+  height: 10px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: relative;
+  top: 20px;
+  left: 5px;
+}
+
+.btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}

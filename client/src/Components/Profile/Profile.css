@@ -1,0 +1,38 @@
+.profileContainer {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .profileInfo {
+    margin-bottom: 20px;
+  }
+  
+  .profileInfo p {
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .profileActions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #16a085;
+  }
+  

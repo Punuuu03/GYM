@@ -1,0 +1,111 @@
+.visitor-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin-left: 170px; /* Adjust based on the sidebar width */
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.add-visitor-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Change to a different color if needed */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.add-visitor-link:hover {
+    background-color: #0056b3; /* Change to a different color if needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: separate; /* Allows shadow effect */
+    border-spacing: 0; /* Removes spacing between cells */
+    background-color: #fff;
+}
+
+thead th {
+    padding: 12px;
+    background-color: #f1f1f1; /* Light gray background for headers */
+    color: #333; /* Dark text color for readability */
+    text-align: left;
+}
+
+tbody td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead th.name-column,
+tbody td.name-column {
+    width: 200px; /* Adjust this value as needed */
+}
+
+tr {
+    background-color: #fff; /* Background color for table rows */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Default shadow effect */
+    margin-bottom: 10px; /* Space between rows */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition */
+}
+
+tr:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray background for alternate rows */
+}
+
+td img {
+    border-radius: 50%;
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    min-width: 120px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content button {
+    background: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.dropdown-content button:hover {
+    background-color: #f1f1f1;
+}
+
+
+thead th, tbody td {
+    width: 10%; 
+}
